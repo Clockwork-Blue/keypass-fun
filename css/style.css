@@ -11,6 +11,10 @@
     justify-content: space-between;
     align-items: center;
     background-color: #9495AC;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    user-select: none;
 }
 
 .navbar > ul {
@@ -22,7 +26,7 @@
     margin: 10px;
 }
 
-.navbar > ul, .navbar > ul > li, .navbar > ul > li > span {
+.navbar > ul, .navbar > ul > li, .navbar > ul > li > a {
     background-color: inherit;
     text-decoration: none;
 }
@@ -30,8 +34,31 @@
 .navbar > div > a {
     background-color: inherit;
     text-decoration: none;
+    margin: 5px;
 }
 
 .genlink {
     background-color: #9495AC;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+    background-color: inherit;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+#logo:hover {
+    transform: rotate(180deg);
+}
+
+.unfin {
+    opacity: 50%;
+}
+.gitLink {
+    padding: 0.75rem 0.6rem;
+    border-radius: 1.25rem;
+    background: #5C6FAA;
+    background-color: #5C6FAA;
 }
