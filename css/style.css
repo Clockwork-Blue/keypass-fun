@@ -1,9 +1,22 @@
-* {
+:root {
     background-color: #F3EDEE;
-    font-family: ;
+    color: #222437;
+    font-family: Work Sans, serif;
+    text-decoration: none;
+    --footer-height: 2.5rem;
+    --Main-brand-color: #8840AE;
+    --light-accent: #9495ac;
+    --lighter-accent:#a9aabd;
+    --dark-light-accent: #76778a;
+}
+* {
+    margin: 0;
+    padding: 0;
 }
 
-
+.text {
+    letter-spacing: 0.025rem;
+}
 
 .navbar {
     display: flex;
@@ -21,14 +34,27 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--dark-light-accent);
+    min-height: 70px;
 }
 .navbar > ul > li {
-    margin: 10px;
+    
+    background-color: inherit;
 }
 
-.navbar > ul, .navbar > ul > li, .navbar > ul > li > a {
-    background-color: inherit;
-    text-decoration: none;
+.navbar > ul > li > a {
+    text-align: center;
+    transition: all 0.5s;
+    margin:5px;
+
+}
+
+.navbar > ul > li >a:hover {
+    background-color: var(--lighter-accent);
+    border-radius: 1.25rem;
+    padding: 0.8rem 0.7rem;
 }
 
 .navbar > div > a {
@@ -37,7 +63,7 @@
 }
 
 .genlink {
-    background-color: #9495AC;
+    background-color: inherit;
 }
 
 #logo {
@@ -45,19 +71,67 @@
     height: 75px;
     background-color: inherit;
     border-radius: 50%;
-    transition: all 0.5s ease;
+    stransition: all 0.5s ease;
 }
 
-#logo:hover {
+#slogo:hover {
     transform: rotate(180deg);
-}
-
-.unfin {
-    opacity: 50%;
 }
 .gitLink {
     padding: 0.75rem 0.6rem;
     border-radius: 1.25rem;
-    background: #5C6FAA;
     background-color: #5C6FAA;
+    transition: all 0.25s;
+}
+
+.mailLink {
+    padding: 0.75rem 0.6rem;
+    border-radius: 1.25rem;
+    background-color: #5C6FAA;
+    transition: all 0.25s;
+}
+
+.gitLink:hover {
+    background-color:  #7d8cbb;
+}
+
+.mailLink:hover {
+    background-color: #7d8cbb;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrapper {
+    padding-bottom: var(--footer-height);
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: var(--footer-height);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoSpin {
+    animation-name: logoSpin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0ms;
+    animation-timing-function: linear;
+}
+
+@keyframes logoSpin{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
 }
