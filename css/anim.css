@@ -1,8 +1,8 @@
 .logoSpin {
     animation-name: logoSpin;
-    animation-duration: 1s;
+    animation-duration: 1.75s;
     animation-iteration-count: infinite;
-    animation-direction: normal;
+    animation-direction: reverse;
     animation-delay: 0ms;
     animation-timing-function: linear;
 }
