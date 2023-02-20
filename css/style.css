@@ -65,7 +65,7 @@
 }
 
 .navbar > ul > li >a:hover {
-    background-color: #a066be;
+    background-color: #ac79c6;
     border-radius: 1.25rem;
     padding: 0.8rem 0.7rem;
 }
@@ -129,4 +129,15 @@
     align-items: center;
     justify-content: center;
     color: #F3EDEE;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+}
+
+#title-area {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
