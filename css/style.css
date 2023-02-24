@@ -136,6 +136,9 @@
     background-position: 0% 0% ;
     background-size: 3vmin 3vmin;
 }
+#main-body {
+    background-color: rgba(26, 26, 26, 0.575);
+}
 
 section {
     position: relative;
@@ -156,7 +159,6 @@ section::after {
 }
 
 #title-area {
-    background-color: rgba(26, 26, 26, 0.575);
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
