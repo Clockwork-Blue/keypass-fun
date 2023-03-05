@@ -1,16 +1,26 @@
-* {
+:root {
     background-color: #F3EDEE;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Work Sans, serif;
+    text-decoration: none;
+    --footer-height: 2.5rem;
+    --Main-brand-color: #8840AE;
+}
+* {
+    color: #222437;
+    margin: 0;
+    padding: 0;
 }
 
-
+.text {
+    letter-spacing: 0.025rem;
+}
 
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #9495AC;
+    background-color: var(--Main-brand-color);
     height: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -21,23 +31,50 @@
     list-style: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #6d338b;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-height: 70px;
 }
 .navbar > ul > li {
-    margin: 10px;
+
+    background-color: inherit;
 }
 
-.navbar > ul, .navbar > ul > li, .navbar > ul > li > a {
-    background-color: inherit;
-    text-decoration: none;
+.centerIt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.divider {
+    border-right-style: solid;
+    height: 40px;
+    border-right-width: 3px;
+    border-color: rgba(172, 121, 198, 0.7);
+}
+
+.navbar > ul > li > a {
+    transition: all 0.5s;
+    margin:5px;
+    color: #F3EDEE;
+
+}
+
+.navbar > ul > li >a:hover {
+    background-color: #ac79c6;
+    border-radius: 1.25rem;
+    padding: 0.8rem 0.7rem;
 }
 
 .navbar > div > a {
-    background-color: inherit;
     text-decoration: none;
     margin: 5px;
 }
 
-.genlnk {
+.genlink {
     background-color: inherit;
 }
 
@@ -46,25 +83,85 @@
     height: 75px;
     background-color: inherit;
     border-radius: 50%;
-    transition: all 0.5s ease;
 }
 
-#logo:hover {
-    transform: rotate(180deg);
-}
-
-.unfin {
-    opacity: 50%;
-}
-.git{
+.gitLink {
     padding: 0.75rem 0.6rem;
     border-radius: 1.25rem;
-    background-color:#F3EDEE;
+    background-color: #ac79c6;
+    transition: all 0.25s;
+    color: #F3EDEE;
 }
 
-.btn {
-    color: aqua;
+.mailLink {
     padding: 0.75rem 0.6rem;
     border-radius: 1.25rem;
+    background-color: #ac79c6;
+    transition: all 0.25s;
+    color: #F3EDEE;
+}
+
+.gitLink:hover {
+    background-color:  #cfb3df;
+}
+
+.mailLink:hover {
+    background-color: #cfb3df;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrapper {
+    padding-bottom: var(--footer-height);
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: var(--footer-height);
+    background-color: #6d338b;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #F3EDEE;
+}
+
+#main-body {
+    background: radial-gradient(rgba(255, 255, 255, 0.85) 8%, transparent 8%);
+    background-position: 0% 0% ;
+    background-size: 3vmin 3vmin;
+}
+#main-body {
+    background-color: rgba(26, 26, 26, 0.575);
+}
+
+section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+}
+
+#title-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card {
     background-color: #F3EDEE;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.infoCard {
+
+}
+.photoCard {
+    padding: 0%;
 }
