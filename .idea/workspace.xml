@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f934f324-e80b-481e-8877-2932934221cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/js-inspections-ea-ultimate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/keypass-fun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/anim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photoCardPlaceholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/svg/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/rBg.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +52,8 @@
       <updated>1678047706475</updated>
       <workItem from="1678047708650" duration="90000" />
       <workItem from="1678047824567" duration="836000" />
+      <workItem from="1678051005080" duration="40000" />
+      <workItem from="1678051171187" duration="431000" />
     </task>
     <servers />
   </component>
