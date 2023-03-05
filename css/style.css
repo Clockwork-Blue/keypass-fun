@@ -148,6 +148,21 @@ section {
 
 #title-area {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.card {
+    background-color: #F3EDEE;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.infoCard {
+
+}
+.photoCard {
+    padding: 0%;
 }
