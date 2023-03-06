@@ -57,7 +57,7 @@
 }
 
 .navbar > ul > li > a {
-    transition: all 0.5s;
+    transition: all 0.375s;
     margin:5px;
     color: #F3EDEE;
 
@@ -143,25 +143,46 @@ section {
     position: relative;
     min-height: 100vh;
     display: flex;
+    border-bottom: 1px solid black;
 }
 
 #title-area {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5px;
 }
 
 .card {
-    background-color: #F3EDEE;
+    background-color: #e7d9ef;
     border-radius: 15px;
-    padding: 5%;
+    width: 40vmin;
+    height: 65vmin;
 }
-
 .infoCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
+
 .photoCard {
-    padding: 0%;
+
+}
+
+.photoCard > img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+
+.s-1-sml-bg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #361a46;
+    padding: 2vmin;
+    border-radius: 15px;
+    gap: 5vmin;
 }

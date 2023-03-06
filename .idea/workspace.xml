@@ -12,6 +12,10 @@
       <change afterPath="$PROJECT_DIR$/img/photoCardPlaceholder.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/svg/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/img/photoCardPlaceholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/photoCardPlaceholder.png" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;H:/GitHub/keypass-fun&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -51,9 +56,16 @@
       <option name="presentableId" value="Default" />
       <updated>1678047706475</updated>
       <workItem from="1678047708650" duration="90000" />
+<<<<<<< Updated upstream
       <workItem from="1678047824567" duration="836000" />
       <workItem from="1678051005080" duration="40000" />
       <workItem from="1678051171187" duration="431000" />
+=======
+      <workItem from="1678047824567" duration="905000" />
+      <workItem from="1678050395081" duration="474000" />
+      <workItem from="1678051226522" duration="425000" />
+      <workItem from="1678127554963" duration="2707000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
