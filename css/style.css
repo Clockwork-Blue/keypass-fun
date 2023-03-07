@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--Main-brand-color);
-    height: 100px;
+    height: 15vmin;
     padding-left: 10px;
     padding-right: 10px;
     user-select: none;
@@ -132,7 +132,7 @@
 
 #main-body {
     background: radial-gradient(rgba(255, 255, 255, 0.85) 8%, transparent 8%);
-    background-position: 0% 0% ;
+    background-position: 0 0 ;
     background-size: 3vmin 3vmin;
 }
 #main-body {
