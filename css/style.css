@@ -166,7 +166,12 @@ section {
 }
 
 .photoCard {
+    transition: transform 0.4s linear, box-shadow 0.475s;
+}
 
+.photoCard:hover {
+    transform: scale(110%);
+    box-shadow: 0 0 3vmin black;
 }
 
 .photoCard > img {
