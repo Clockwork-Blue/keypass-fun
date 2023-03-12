@@ -1,0 +1,51 @@
+.card {
+    background-color: #e7d9ef;
+    border-radius: 15px;
+    width: 40vmin;
+    height: 65vmin;
+}
+.infoCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #F3EDEE;
+
+}
+
+.infoCard:hover > .infoCard-icon {
+    opacity: 1;
+}
+
+
+
+.photoCard {
+    transition: transform 0.4s linear, box-shadow 0.475s;
+}
+
+.photoCard:hover {
+    transform: scale(110%);
+    box-shadow: 0 0 3vmin black;
+}
+
+.photoCard > img {
+    height: 100%;
+    width: 100%;
+    border-radius: inherit;
+}
+
+#card-title {
+    color: #222437;
+    font-weight: 400;
+    margin: 0px;
+    font-size: 3vmin;
+}
+
+#card-subtitle {
+    color: #222437;
+    font-weight: 400;
+    margin-top: 0.75vmin;
+    font-size: 1.8vmin;
+}
+
+.infoCard-icon {
+    opacity: 0.7;
+}
