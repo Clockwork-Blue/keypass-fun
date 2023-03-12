@@ -18,8 +18,8 @@
     align-items: center;
     background-color: var(--Main-brand-color);
     height: 15vmin;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
     user-select: none;
 }
 
@@ -28,11 +28,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 2vmin;
     background-color: #6d338b;
-    padding-left: 10px;
-    padding-right: 10px;
-    min-height: 70px;
+    padding-left: 1vmin;
+    padding-right: 1vmin;
+    min-height: 6.225vmin;
 }
 .navbar > ul > li {
 
@@ -47,27 +47,27 @@
 }
 .divider {
     border-right-style: solid;
-    height: 40px;
-    border-right-width: 3px;
+    height: 4.3575vmin;
+    border-right-width: 0.3vmin;
     border-color: rgba(172, 121, 198, 0.7);
 }
 
 .navbar > ul > li > a {
     transition: all 0.375s;
-    margin:5px;
+    margin:0.5vmin;
     color: #F3EDEE;
 
 }
 
 .navbar > ul > li >a:hover {
     background-color: #ac79c6;
-    border-radius: 1.25rem;
-    padding: 0.8rem 0.7rem;
+    border-radius: 1.55vmin;
+    padding: 0.8vmin 0.7vmin;
 }
 
 .navbar > div > a {
     text-decoration: none;
-    margin: 5px;
+    margin: 0.5vmin;
 }
 
 .genlink {
@@ -75,23 +75,23 @@
 }
 
 #logo {
-    width: 75px;
-    height: 75px;
+    width: 7.5vmin;
+    height: 7.5vmin;
     background-color: inherit;
     border-radius: 50%;
 }
 
 .gitLink {
-    padding: 0.75rem 0.6rem;
-    border-radius: 1.25rem;
+    padding: 0.8vmin 0.7vmin;
+    border-radius: 1.55vmin;
     background-color: #ac79c6;
     transition: all 0.25s;
     color: #F3EDEE;
 }
 
 .mailLink {
-    padding: 0.75rem 0.6rem;
-    border-radius: 1.25rem;
+    padding: 0.8vmin 0.7vmin;
+    border-radius: 1.55vmin;
     background-color: #ac79c6;
     transition: all 0.25s;
     color: #F3EDEE;
@@ -130,8 +130,6 @@
     background: radial-gradient(rgba(255, 255, 255, 0.85) 8%, transparent 8%);
     background-position: 0 0 ;
     background-size: 3vmin 3vmin;
-}
-#main-body {
     background-color: rgba(26, 26, 26, 0.575);
 }
 
@@ -155,6 +153,6 @@ section {
     justify-content: center;
     background-color: #361a46;
     padding: 2vmin;
-    border-radius: 15px;
+    border-radius: 1.5vmin;
     gap: 5vmin;
 }
