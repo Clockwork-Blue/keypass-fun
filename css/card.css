@@ -10,6 +10,9 @@
     background-color: #F3EDEE;
 
 }
+.infoCard-icon {
+    opacity: 0.7;
+}
 
 .infoCard:hover > .infoCard-icon {
     opacity: 1;
@@ -46,6 +49,3 @@
     font-size: 1.8vmin;
 }
 
-.infoCard-icon {
-    opacity: 0.7;
-}
