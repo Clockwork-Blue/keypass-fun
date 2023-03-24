@@ -7,6 +7,24 @@
     animation-timing-function: linear;
 }
 
+.photoCard {
+    transition: transform 0.4s linear, box-shadow 0.475s;
+    overflow: hidden;
+    animation-name: photocard-down;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 0ms;
+}
+
+.photoCard:hover {
+    animation-name: photocard-up;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 0ms;
+}
+
 @keyframes logoSpin{
     from {
         transform: rotate(0deg);
@@ -15,4 +33,35 @@
         transform: rotate(360deg);
     }
 
+}
+
+@keyframes photocard-up {
+    from {
+        transform: scale(100%);
+        box-shadow: 0 0 0vmin black;
+    }
+
+    80% {
+        box-shadow: 0 0 2.4vmin black;
+    }
+    to {
+        transform: scale(110%);
+        box-shadow: 0 0 3vmin black;
+    }
+
+}
+
+@keyframes photocard-down {
+    from {
+        transform: scale(110%);
+        box-shadow: 0 0 3vmin black;
+    }
+
+    80% {
+        box-shadow: 0 0 2.4vmin black;
+    }
+    to {
+        transform: scale(100%);
+        box-shadow: 0 0 0vmin black;
+    }
 }
