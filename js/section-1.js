@@ -15,4 +15,8 @@ function createSubtitle(text) {
     text.split(" ").map(addWord);
 }
 
-createSubtitle("An aspiring programmer and web developer.")
+function printSubtitle() {
+    createSubtitle("I Am Delighted To Make Your Acquaintance.");
+    createWord();
+    addWord();
+}

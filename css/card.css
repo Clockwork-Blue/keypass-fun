@@ -27,6 +27,10 @@
 .infoCard:hover > .infoCard-icon {
     opacity: 1;
 }
+
+.infoCard:hover > div > .card-subtitle-words {
+    opacity: 1;
+}
 .photoCard > img {
     height: 100%;
     width: 100%;
