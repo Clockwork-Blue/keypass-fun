@@ -28,7 +28,21 @@
     opacity: 1;
 }
 
-.infoCard:hover > .card-content> .card-subtitle > .card-subtitle-words {
+.infoCard:hover > div > div > .card-subtitle-word {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.card-subtitle-word {
+    display: inline-block;
+    font-size: 2vmin;
+    margin: 0.2vmin;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    transform: translateY(40%);
+}
+
+.infoCard:hover > div > div > .card-subtitle-words {
     opacity: 1;
 }
 .photoCard > img {
@@ -48,13 +62,6 @@
     color: #222437;
     font-weight: 400;
     margin-top: 0.75vmin;
-}
-
-.card-subtitle-word {
-    display: inline-block;
-    font-size: 1.9vmin;
-    margin: 0.2vmin;
-    opacity: 0.4;
 }
 
 .card-content {
@@ -95,7 +102,7 @@
 }
 
 .colour-child:nth-child(even) {
-    background-color: darkslategrey;
+    background-color: var(--Main-brand-color);
     transform: translateY(-100%);
 }
 
