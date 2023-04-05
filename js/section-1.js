@@ -1,22 +1,16 @@
-const infoCardSubtitle = document.getElementById("card-subtitle")[0];
+const infoCardSubtitle = document.getElementsByClassName("card-subtitle")[0];
 
-function createWord(text, index) {
+const createWord = (text, index) => {
     const word = document.createElement("span");
     word.innerHTML = `${text}`;
-    word.classList.add("card-subtitle-words");
+    word.classList.add("card-subtitle-word");
     word.style.transitionDelay = `${index * 40}ms`;
     return word;
 }
-function addWord(text, index) {
+const addWord = (text, index) => {
+    const infoCardSubtitle = document.getElementsByClassName("card-subtitle")[0];
     infoCardSubtitle.appendChild(createWord(text,index));
 }
 
-function createSubtitle(text) {
-    text.split(" ").map(addWord);
-}
 
-function printSubtitle() {
-    createSubtitle("I Am Delighted To Make Your Acquaintance.");
-    createWord();
-    addWord();
-}
+const createSubtitle = text =>  text.split(" ").map(addWord);

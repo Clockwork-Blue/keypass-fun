@@ -28,7 +28,7 @@
     opacity: 1;
 }
 
-.infoCard:hover > div > .card-subtitle-words {
+.infoCard:hover > .card-content> .card-subtitle > .card-subtitle-words {
     opacity: 1;
 }
 .photoCard > img {
@@ -44,15 +44,17 @@
     font-size: 3vmin;
 }
 
-#card-subtitle {
+.card-subtitle {
     color: #222437;
     font-weight: 400;
     margin-top: 0.75vmin;
-    font-size: 1.8vmin;
 }
 
-.card-subtitle-words {
+.card-subtitle-word {
     display: inline-block;
+    font-size: 1.9vmin;
+    margin: 0.2vmin;
+    opacity: 0.4;
 }
 
 .card-content {
@@ -84,6 +86,7 @@
     width: 25%;
     height: 100%;
     transition: transform 0.5s;
+    pointer-events: none;
 }
 
 .colour-child:nth-child(odd) {
