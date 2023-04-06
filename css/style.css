@@ -156,3 +156,16 @@ section {
     border-radius: 1.5vmin;
     gap: 5vmin;
 }
+#section-2 {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(34, 36, 55,1) 24%,
+                                      rgba(34, 36, 55,0.8435749299719888) 55%,
+                                      rgba(34, 36, 55,0.6082808123249299) 65%,
+                                      rgba(34, 36, 55,0.30575980392156865) 79%,
+                                      rgba(34, 36, 55,0) 95%);
+    background-size: 100%;
+}
+
+#section-3 {
+    background-color: rgb(34, 36, 55);
+}
