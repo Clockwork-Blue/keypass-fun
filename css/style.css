@@ -156,7 +156,7 @@ section {
     border-radius: 1.5vmin;
     gap: 5vmin;
 }
-#section-2 {
+#Who-Am-I {
     width: 100%;
 background: linear-gradient(0deg, rgba(34, 36, 55,1) 24%,
 rgba(34, 36, 55,0.8435749299719888) 57%,
@@ -168,7 +168,8 @@ rgba(34, 36, 55,0) 100%);
 }
 
 #section-3 {
-    background: linear-gradient(180deg, #222437, #302f57, #463876, #643e94, #8840ae);
+    background: linear-gradient(180deg, #222437, #23253a, #262842, #2c2c4e, #34315d, #3f366e, #4e3a7f, #5d3d8e, #6d3f9b,
+    #7b40a5, #8440ac, #8840ae);
     background-size: 100%;
 }
 
