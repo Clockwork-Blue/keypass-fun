@@ -2,7 +2,7 @@ function createWord(text, index) {
     const word = document.createElement("span");
     word.innerHTML = `${text}`;
     word.classList.add("card-subtitle-letter");
-    word.style.transitionDelay = `${index * 40}ms`;
+    word.style.transitionDelay = `${index * 20}ms`;
     return word;
 }
 function addWord (text, index) {

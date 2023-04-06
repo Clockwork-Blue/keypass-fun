@@ -168,5 +168,10 @@ rgba(34, 36, 55,0) 100%);
 }
 
 #section-3 {
-    background-color: rgb(34, 36, 55);
+    background: linear-gradient(180deg, #222437, #302f57, #463876, #643e94, #8840ae);
+    background-size: 100%;
+}
+
+#section-4 {
+    background-color: var(--Main-brand-color);
 }

@@ -28,7 +28,7 @@
     opacity: 1;
 }
 
-.infoCard:hover > div > div > .card-subtitle-word {
+.infoCard:hover > div > div > .card-subtitle-letter {
     opacity: 1;
     transform: translateY(0%);
 }
@@ -36,7 +36,7 @@
 .card-subtitle-letter {
     display: inline-block;
     font-size: 2vmin;
-    margin: 0.1vmin;
+    margin: 0.17vmin;
     opacity: 0;
     transition: opacity 0.5s, transform 0.5s;
     transform: translateY(40%);
