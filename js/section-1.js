@@ -1,16 +1,18 @@
-const infoCardSubtitle = document.getElementsByClassName("card-subtitle")[0];
-
-const createWord = (text, index) => {
+function createWord(text, index) {
     const word = document.createElement("span");
     word.innerHTML = `${text}`;
-    word.classList.add("card-subtitle-word");
+    word.classList.add("card-subtitle-letter");
     word.style.transitionDelay = `${index * 40}ms`;
     return word;
 }
-const addWord = (text, index) => {
+function addWord (text, index) {
     const infoCardSubtitle = document.getElementsByClassName("card-subtitle")[0];
     infoCardSubtitle.appendChild(createWord(text,index));
 }
 
-
-const createSubtitle = text =>  text.split(" ").map(addWord);
+function createSubtitle(text) {
+    for (let i = 0; i < text.length; i++) {
+        const letter = text[i];
+        addWord(letter, i);
+    }
+}

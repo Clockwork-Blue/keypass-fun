@@ -33,10 +33,10 @@
     transform: translateY(0%);
 }
 
-.card-subtitle-word {
+.card-subtitle-letter {
     display: inline-block;
     font-size: 2vmin;
-    margin: 0.2vmin;
+    margin: 0.1vmin;
     opacity: 0;
     transition: opacity 0.5s, transform 0.5s;
     transform: translateY(40%);
